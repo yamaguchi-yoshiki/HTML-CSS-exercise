@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* navigation */
+.nav-list {
+  text-align: center;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.nav-list-item {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+}
+
+/* main */
+.main {
+  width: 800px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  width: 200px;
+  height: 200px;
+}
+
+.main > div:nth-child(1) {
+  background-color: #e6ffe9;
+}
+.main > div:nth-child(2) {
+  background-color: #cbffd3;
+}
+.main > div:nth-child(3) {
+  background-color: #aeffbd;
+}
+.main > div:nth-child(4) {
+  background-color: #93ffab;
+}
+.main > div:nth-child(5) {
+  background-color: #f3ffd8;
+}
+.main > div:nth-child(6) {
+  background-color: #edffbe;
+}
+.main > div:nth-child(7) {
+  background-color: #e9ffa5;
+}
+.main > div:nth-child(8) {
+  background-color: #e4ff8d;
+}
+.main > div:nth-child(9) {
+  background-color: #d9e5ff;
+}
+.main > div:nth-child(10) {
+  background-color: #bad3ff;
+}
+.main > div:nth-child(11) {
+  background-color: #a4c6ff;
+}
+.main > div:nth-child(12) {
+  background-color: #8eb8ff;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text {
+  color: #fff;
+}
